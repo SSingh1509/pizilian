@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="pizza_1404945.png">
+    <title>Pizzilian</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <span style="color: yellow;">Pizzi</span>lian
+            <nav>
+                <img src="pizza_1404945.png" alt="" class="logo" width="50px" height="50px">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About us </a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <img src="menu-bar (1).png" alt="" class="menu-btn" width="20px" height="20px">
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">Welcome</h1>
+                <h1 class="main-heading"><span style="color: yellow;">Pizzi</span>lian</h1>
+                <p> <span style="color: yellow">Ex</span>perience the <span style="color: rgb(255, 255, 14);">or</span>iginal taste of <span style="color: yellow;">f</span>oo<span style="color: yellow;">d</span></p>
+                <button class="btn-primary">View more</button>
+            </div>
+        </div>
+    </div>
+    <section id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h1>Our Menu</h1>
+                <div class="line"></div>
+            </div>
+            <a href=""><div class="menus">
+                <div class="menu">
+                    <img src="b.avif" alt="">
+                    <h3>Burgers</h3>
+                    <p>Make with lots of love </p>
+                </div></a>
+                <div class="menus">
+                    <div class="menu">
+                        <img src="pp.jpg" alt="">
+                        <h3>Pizzas</h3>
+                        <p>Make with lots of love </p>
+                    </div>
+                    <div class="menus">
+                        <div class="menu">
+                            <img src="s.webp" alt="">
+                            <h3>Sushi</h3>
+                            <p>Make with lots of love </p>
+                        </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>About Us</h4>
+                <h1>Why? Pizzilian</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, velit voluptates! Cum.</p>
+            </div>
+            <div class="about-image">
+                <img src="w.jpg" alt="" width="500px" height="350px">
+            </div>
+        </div>
+    </section>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Blog</a>
+            </p>
+            <p class="footer-company-name">Copyright 2024<strong>Pizzilian
+                ALL rights reserved
+            </strong></p>
+        </div>
+        <div class="footer-center">
+            <i class="fa fa-map-marker"></i>
+            <p><span>Daryaganj</span>
+            New Delhi</p>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 74**525*5</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <a href=""><span style="color: white;">pizzilian123@gamil.com</span></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eos quis molestiae?</strong>
+            </p>
+            <div class="footer-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('.nav-list')
+
+        navBtn.addEventListener("click", function() {
+            navList.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
